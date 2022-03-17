@@ -102,10 +102,10 @@ def get_filepaths(path):
 
 if __name__ == '__main__':
     # User Configuration
-    path = 'your directory path or file path which store your Markdown files'  # e.g. D:/PythonCode/post-wordpress-with-markdown/doc
-    domain = 'https://xxx.com'  # e.g. https://jwblog.xyz（配置了SSL证书就用https，否则用http）
-    username = 'your username'
-    password = 'your password'
+    path = '/home/csdn/Downloads/Tensorflow_tutorial/flair/make.md'  # e.g. D:/PythonCode/post-wordpress-with-markdown/doc
+    domain = 'http://116.198.41.243:8000/'  # e.g. https://jwblog.xyz（配置了SSL证书就用https，否则用http）
+    username = 'mao'
+    password = 'uyPDBRra5eTJJJg0fBQn'
 
     # Optional Configuration
     post_metadata = {
