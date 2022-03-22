@@ -102,14 +102,14 @@ def get_filepaths(path):
 
 if __name__ == '__main__':
     # User Configuration
-    path = '/home/csdn/Downloads/Tensorflow_tutorial/flair/make.md'  # e.g. D:/PythonCode/post-wordpress-with-markdown/doc
+    path = './md_files/'  # e.g. D:/PythonCode/post-wordpress-with-markdown/doc
     domain = 'http://116.198.41.243:8000/'  # e.g. https://jwblog.xyz（配置了SSL证书就用https，否则用http）
     username = 'mao'
     password = 'uyPDBRra5eTJJJg0fBQn'
 
     # Optional Configuration
     post_metadata = {
-        'category': ['博客存档'],  # 文章分类
+        'category': ['开发实践'],  # 文章分类
         'tag': ['博客存档'],  # 文章标签
         'status': 'publish'  # 可选publish发布、draft草稿、private隐私状态
     }
